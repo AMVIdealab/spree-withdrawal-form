@@ -1,4 +1,4 @@
-# SpreeWithdrawalForm
+# Spree Withdrawal Form
 
 Introduction goes here.
 
@@ -6,7 +6,7 @@ Introduction goes here.
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_withdrawal_form', github: '[your-github-handle]/spree_withdrawal_form'
+  gem 'spree_withdrawal_form', github: 'AMVIdealab/spree_withdrawal_form'
   ```
 
 2. Install the gem using Bundler:
