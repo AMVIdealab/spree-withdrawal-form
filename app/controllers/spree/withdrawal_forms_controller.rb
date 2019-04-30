@@ -12,7 +12,7 @@ module Spree
           flash[:success] = 'Modulo di recesso inviato correttamente'
           redirect_to spree.root_path      
        else
-        flash[:danger] = 'Non è stato possibile inviare il modulo di recesso'
+         flash.now[:danger] = 'Non è stato possibile inviare il modulo di recesso'
         render 'new'
        end
     end
